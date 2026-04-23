@@ -47,11 +47,11 @@ app.get('/api/dashboard/chart-data', (req, res) => {
 // Recent activity
 app.get('/api/dashboard/recent-activity', (req, res) => {
   const activity = [
-    { id: 1, user: 'John Doe', action: 'Purchased Pro Plan', time: '2 minutes ago', amount: '$99.00' },
-    { id: 2, user: 'Sarah Smith', action: 'Signed up', time: '1 hour ago', amount: null },
-    { id: 3, user: 'Robert Johnson', action: 'Refunded Order #1234', time: '3 hours ago', amount: '-$45.00' },
-    { id: 4, user: 'Emily Davis', action: 'Purchased Enterprise', time: '5 hours ago', amount: '$599.00' },
-    { id: 5, user: 'Michael Brown', action: 'Updated profile', time: '1 day ago', amount: null },
+    { id: 1, user: 'Kullayappa', action: 'Purchased Pro Plan', time: '2 minutes ago', amount: '$99.00' },
+    { id: 2, user: 'Sadha', action: 'Signed up', time: '1 hour ago', amount: null },
+    { id: 3, user: 'Ismail', action: 'Refunded Order #1234', time: '3 hours ago', amount: '-$45.00' },
+    { id: 4, user: 'Sai Kumar', action: 'Purchased Enterprise', time: '5 hours ago', amount: '$599.00' },
+    { id: 5, user: 'Ramesh Babu', action: 'Updated profile', time: '1 day ago', amount: null },
   ];
   res.json(activity);
 });
